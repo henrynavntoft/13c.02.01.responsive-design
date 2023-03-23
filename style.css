@@ -266,6 +266,14 @@ header button:hover {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .highlight_small_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: center;
+    grid-gap: var(--padding);
+    padding: var(--padding);
+  }
 }
 
 /*TEAM*/
